@@ -1,17 +1,16 @@
 {
-  "latest_version": "22.3.2",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.3.2/CLYO_Stock_Atelier_Setup_22.3.2.exe",
+  "latest_version": "23.0.0",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v23.0.0/CLYO_Stock_Atelier_Setup_23.0.0.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95415401,
-  "sha256": "29a456173878d0d4bf7c21ae6d0801b500257f779d44428f941f96a4115d27e2",
+  "installer_size": 97066335,
+  "sha256": "4e24e0990c2c7beb2c71eb66b411b4f1bf9fd5e0c870517b9fdc8863c84b5b3f",
   "mandatory": false,
-  "published_at": "2026-08-17T09:25:28.520337+00:00",
+  "published_at": "2026-08-17T14:24:27.000034+00:00",
   "changelog": [
-    "Correction du post-traitement GitHub après publication : le workspace modifié par le build est désormais réinitialisé proprement depuis origin/main avant de restaurer les fichiers de release.",
-    "Suppression du git pull --rebase sur un espace de travail sale, qui faisait échouer la publication après la création réussie de la Release GitHub.",
-    "Compatibilité Windows PowerShell 5.1 : la copie des fichiers de release n'utilise plus System.IO.Path.GetRelativePath et passe par un helper Python indépendant de la version de PowerShell.",
-    "Le push automatique vers main est rejoué jusqu'à trois fois si la branche distante évolue pendant la publication, sans perdre les fichiers de release sauvegardés dans RUNNER_TEMP.",
-    "Les fonctionnalités Remplacement / RMA guidées de la V22.3.1 sont conservées intégralement ; cette version corrige uniquement la chaîne de publication GitHub.",
-    "L'Agent NAS n'est pas impacté et reste en version 22.1.1."
+    "Boutons d'action affichés horizontalement dans Remplacement/RMA, Prêt et Référentiel",
+    "Correction du bouton Faire la mise à jour",
+    "Téléchargement GitHub canonique avec SHA-256",
+    "Nettoyage des fichiers temporaires en cas d'échec",
+    "Agent NAS inchangé 22.1.1"
   ]
 }
