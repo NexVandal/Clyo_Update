@@ -1,16 +1,18 @@
 {
-  "latest_version": "23.0.0",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v23.0.0/CLYO_Stock_Atelier_Setup_23.0.0.exe",
+  "latest_version": "22.4.3",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.3/CLYO_Stock_Atelier_Setup_22.4.3.exe",
   "asset_type": "installer_exe",
-  "installer_size": 97066335,
-  "sha256": "4e24e0990c2c7beb2c71eb66b411b4f1bf9fd5e0c870517b9fdc8863c84b5b3f",
+  "installer_size": 95222367,
+  "sha256": "acd037b70f905925efc4d3482a4683843ce0b42ab8ec73dc1294b8deb8012f1b",
   "mandatory": false,
-  "published_at": "2026-08-17T14:24:27.000034+00:00",
+  "published_at": "2026-08-18T12:24:06.000149+00:00",
   "changelog": [
-    "Boutons d'action affichés horizontalement dans Remplacement/RMA, Prêt et Référentiel",
-    "Correction du bouton Faire la mise à jour",
-    "Téléchargement GitHub canonique avec SHA-256",
-    "Nettoyage des fichiers temporaires en cas d'échec",
-    "Agent NAS inchangé 22.1.1"
+    "Le bon de retour RMA adopte la maquette A4 CLYO Stock Atelier validée : logo en haut, informations matériel à gauche, QR code seul à droite et adresse de retour en bas.",
+    "Le motif de la demande est mis en évidence en rouge sur le bon de retour, sans texte explicatif sous le QR code.",
+    "Chaque dossier RMA conserve désormais un historique structuré et horodaté de toutes les étapes jusqu'à la clôture, avec l'utilisateur, les changements d'état et les informations de traitement.",
+    "Les anciens dossiers RMA sont affichés avec un historique reconstruit à partir des informations déjà conservées en base afin de ne pas perdre leur traçabilité existante.",
+    "La fenêtre Dossier RMA affiche une chronologie complète et reste consultable après clôture.",
+    "Le tableau Dessins matériels occupe toute la largeur disponible et la colonne Actions conserve des boutons compacts correctement alignés.",
+    "L'Agent NAS n'est pas impacté et reste en version 22.1.1."
   ]
 }
