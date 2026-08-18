@@ -2,10 +2,10 @@
   "latest_version": "22.4.3",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.3/CLYO_Stock_Atelier_Setup_22.4.3.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95222367,
-  "sha256": "acd037b70f905925efc4d3482a4683843ce0b42ab8ec73dc1294b8deb8012f1b",
+  "installer_size": 95222889,
+  "sha256": "78e6d5ca2f8b0769cc22fcc75efbdebdc23fb475e202c176752a6804c4137ffc",
   "mandatory": false,
-  "published_at": "2026-08-18T12:24:06.000149+00:00",
+  "published_at": "2026-08-18T12:37:29.196897+00:00",
   "changelog": [
     "Le bon de retour RMA adopte la maquette A4 CLYO Stock Atelier validée : logo en haut, informations matériel à gauche, QR code seul à droite et adresse de retour en bas.",
     "Le motif de la demande est mis en évidence en rouge sur le bon de retour, sans texte explicatif sous le QR code.",
