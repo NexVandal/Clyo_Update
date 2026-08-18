@@ -1,18 +1,21 @@
 {
-  "latest_version": "22.4.3",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.3/CLYO_Stock_Atelier_Setup_22.4.3.exe",
+  "latest_version": "22.4.5",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.5/CLYO_Stock_Atelier_Setup_22.4.5.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95222684,
-  "sha256": "56a188b0844c8a83175f11dfec1bdd69bab02dd75d8f290f95225f40c248434a",
+  "installer_size": 95263899,
+  "sha256": "47babe8af0de98d0745dd55fe189f21dae0eed0d9209eb1775342ac56368bbb1",
   "mandatory": false,
-  "published_at": "2026-08-18T13:03:06.766046+00:00",
+  "published_at": "2026-08-18T16:36:16.769516+00:00",
   "changelog": [
-    "Le bon de retour RMA adopte la maquette A4 CLYO Stock Atelier validée : logo en haut, informations matériel à gauche, QR code seul à droite et adresse de retour en bas.",
-    "Le motif de la demande est mis en évidence en rouge sur le bon de retour, sans texte explicatif sous le QR code.",
-    "Chaque dossier RMA conserve désormais un historique structuré et horodaté de toutes les étapes jusqu'à la clôture, avec l'utilisateur, les changements d'état et les informations de traitement.",
-    "Les anciens dossiers RMA sont affichés avec un historique reconstruit à partir des informations déjà conservées en base afin de ne pas perdre leur traçabilité existante.",
-    "La fenêtre Dossier RMA affiche une chronologie complète et reste consultable après clôture.",
-    "Le tableau Dessins matériels occupe toute la largeur disponible et la colonne Actions conserve des boutons compacts correctement alignés.",
-    "L'Agent NAS n'est pas impacté et reste en version 22.1.1."
+    "La fenêtre « Changements de cette version » est désormais verrouillée sur la version réellement installée : l'ancienne fenêtre 22.0.0 ne peut plus reprendre la main.",
+    "Le tableau Suivi RMA affiche uniquement Référence, Nom société, Nom site, Matériel, Préparateur, État et Actions. Les boutons d'action restent alignés horizontalement.",
+    "Les nouveaux RMA utilisent la référence mensuelle RMA-AAMM-NN (exemple : RMA-2608-01). Les anciennes références déjà créées sont conservées afin de préserver leur traçabilité et leurs documents existants.",
+    "La catégorie d'un RMA est sélectionnable dans une liste alimentée par toutes les catégories du référentiel Modèles CLYO Stock, en création comme en modification.",
+    "Le Dossier RMA est allégé : les blocs Dossier, Matériel déclaré, Traitement / résultat et Fournisseur sont retirés ; le bon de retour et l'historique complet jusqu'à la clôture restent visibles.",
+    "Un RMA terminé est en consultation seule pour les utilisateurs ordinaires. Seul un Superadmin peut encore le modifier ou le supprimer ; la protection est appliquée côté interface et côté API.",
+    "La vente ne lit plus Google Sheets en direct lors de la création d'un nouveau site. Le code site est attribué localement sous verrou MariaDB et la synchronisation Google reste gérée ensuite par le mécanisme asynchrone existant.",
+    "Dans Prêts, le numéro de série/code n'est plus affiché sous le matériel et la ligne du site est supprimée. La colonne Client / site conserve uniquement « CODE CLIENT · NOM SOCIÉTÉ ».",
+    "Les manifestes Stable et Test restent lus depuis le dépôt public NexVandal/Clyo_Update.",
+    "L'Agent NAS n'est pas modifié et reste en version 22.1.1."
   ]
 }
