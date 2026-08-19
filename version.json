@@ -1,19 +1,24 @@
 {
-  "latest_version": "22.4.11",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.11/CLYO_Stock_Atelier_Setup_22.4.11.exe",
+  "latest_version": "22.4.12",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.12/CLYO_Stock_Atelier_Setup_22.4.12.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95380509,
-  "sha256": "22af9f87e209468a21d187af88964e5e611412ef7c9d85afb814229e7c900fd0",
+  "installer_size": 95418645,
+  "sha256": "865b43bde4a1c1780a964a3551be025940fd5a5dec00b680f07be39586869881",
   "mandatory": false,
-  "published_at": "2026-08-19T12:43:34.379163+00:00",
+  "published_at": "2026-08-19T16:08:31.194926+00:00",
   "changelog": [
-    "La navigation repose désormais sur un contrôleur unique et exclusif : un seul panneau peut être visible, ce qui empêche Référentiel ou Clients de rester affiché dans Suivi vente et Suivi RMA.",
-    "Suivi vente, Suivi RMA et Prêts utilisent la même ligne d'actions compacte avec les boutons Voir, Modifier, Supprimer et Plus.",
-    "Les actions secondaires sont regroupées derrière le bouton Plus dans un menu léger qui reste entièrement visible à l'écran.",
-    "Les anciens boutons massifs et les anciens menus d'actions de la 22.4.10 ne sont plus chargés par l'application.",
-    "Les boutons destructifs restent rouges et demandent toujours une confirmation avant suppression ou annulation.",
-    "L'affichage de la colonne Actions reste stable dans les tableaux, y compris avec le défilement horizontal et sur une fenêtre étroite.",
-    "Les modules Suivi vente, Suivi RMA et Prêts conservent leurs fonctions et leurs autorisations existantes.",
-    "L'Agent NAS n'est pas modifié et reste en version 22.1.1."
+    "Le tableau de bord reconnaît les scans de matériels et de références RMA, même sans focus dans la recherche, et affiche uniquement les cartes Stock, Vente, RMA, Prêts et Clients.",
+    "Les matériels connus mais absents du stock peuvent être réintégrés avec autorisation et traçabilité ; les codes inconnus affichent une information explicite.",
+    "Le module Prêts aligne Créer et Actualiser, génère automatiquement un bon de prêt au format RMA, passe le dossier en attente de retour et programme la copie NAS sans bloquer l’interface.",
+    "Suivi vente corrige le blocage Client vers Site, charge les préparateurs actifs, reprend la présentation de Suivi RMA et utilise une modale pour les actions complémentaires.",
+    "Les fiches d’installation sont programmées vers GESTION CLIENT/FICHE D’INSTALLATION quel que soit leur point de génération.",
+    "Suivi RMA ouvre plus rapidement la modification, propose une modale unique pour le traitement, les documents et la traçabilité, et programme les bons de retour vers GESTION CLIENT/BON DE RETOUR.",
+    "Les fenêtres Sites et confirmations s’empilent correctement au-dessus des informations client ; création et suppression ne signalent plus un faux délai dépassé ou une annulation interne après succès.",
+    "Toutes les dates visibles utilisent le format JJ-MM-AAAA, sans heure.",
+    "Le Référentiel aligne ses boutons demandés et retire le libellé Excel obsolète.",
+    "Les anciennes couches d’apparence et options obsolètes sont retirées de l’interface active ; navigation, modales et actions utilisent chacune un contrôleur unique.",
+    "Les anciens moteurs RMA/Remplacement 22.2.0 à 22.4.0 qui reconstruisaient encore les tableaux et boutons sont retirés de la page active ; seul le parcours RMA canonique reste chargé.",
+    "Les listes stables sont mises en cache, les copies NAS sont traitées en arrière-plan et les routes lentes sont journalisées afin de retrouver une utilisation fluide sur le réseau local.",
+    "La version de l’Agent NAS reste 22.1.1."
   ]
 }
