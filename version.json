@@ -2,10 +2,10 @@
   "latest_version": "22.4.8",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.8/CLYO_Stock_Atelier_Setup_22.4.8.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95326570,
-  "sha256": "5cbcb6a3cecea74eac223d35d0af2fb24274f05cd7a6477c6f24f4b73d859b67",
+  "installer_size": 95332129,
+  "sha256": "c086d87192d7fce6fc217b38c7701fd9c42ac7c9ca52b74963259fb92cbebfdd",
   "mandatory": false,
-  "published_at": "2026-08-19T03:58:12.200668+00:00",
+  "published_at": "2026-08-19T04:08:22.804389+00:00",
   "changelog": [
     "« Suivi vente » et « Ventes par catégorie » sont désormais deux modules complètement indépendants dans le menu principal.",
     "La page « Suivi vente » contient uniquement les dossiers de préparation, d’expédition, de suivi transporteur et de livraison.",
