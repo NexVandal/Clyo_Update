@@ -1,20 +1,21 @@
 {
-  "latest_version": "22.4.9",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.9/CLYO_Stock_Atelier_Setup_22.4.9.exe",
+  "latest_version": "22.4.10",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.10/CLYO_Stock_Atelier_Setup_22.4.10.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95386178,
-  "sha256": "efc0920fa56c565f15fb7124881591f64c9bd18c95dc9baf0c6cd76fbc581a40",
+  "installer_size": 95379143,
+  "sha256": "156c54d7cc2bd0bf32eadd3afd6b7308a06c44571b80f85cab5f1ec42af3081c",
   "mandatory": false,
-  "published_at": "2026-08-19T06:52:12.728596+00:00",
+  "published_at": "2026-08-19T10:53:31.471330+00:00",
   "changelog": [
-    "Suppression complète de l’ancien module Vente et du module Ventes par catégorie : entrées de menu, pages, navigation, styles, handlers et autorisations obsolètes sont retirés, sans supprimer les données historiques nécessaires au Suivi vente.",
-    "Suivi vente propose désormais des actions distinctes pour consulter le matériel vendu, modifier le préparateur, générer une fiche d’installation et supprimer ou annuler une vente avec confirmation et remise en stock contrôlée.",
-    "Les boutons Retour des procédures multi-étapes, notamment Vendre du matériel, ramènent à l’étape précédente sans recommencer le parcours et conservent le client, le site, le préparateur implicite, les matériels, les numéros de série et les données TeamViewer.",
-    "Suivi RMA affiche un bouton Créer un RMA, permet de modifier les dossiers existants et de changer le préparateur avec traçabilité.",
-    "La gestion des autorisations comprend maintenant un groupe Prêt complet : accès, consultation, création, modification, changement de préparateur, consultation du matériel, sortie, retour, prolongation, clôture, suppression et documents.",
-    "Les droits sensibles de Suivi vente, RMA et Prêt sont contrôlés dans l’interface et dans les routes API correspondantes.",
-    "Les boutons d’action sont remplacés par des actions explicites avec icônes et styles différenciés ; les opérations destructives demandent une confirmation et un motif.",
-    "Les colonnes Actions restent accessibles sur les écrans étroits grâce à un tableau défilable, une colonne fixe et un menu d’actions rendu hors des conteneurs susceptibles de le masquer.",
-    "L’Agent NAS 22.1.1 n’est pas modifié et reste la version requise."
+    "Suivi vente est replacé dans le menu principal juste sous Stock et avant Prêts ; sa position reste stable après connexion, changement de droits et actualisation.",
+    "Toutes les ventes antérieures à la création du module Suivi vente sont reprises automatiquement, sans modifier ni dupliquer les données d'origine, et identifiées comme Livrée — historique.",
+    "Les ventes historiques restent consultables, avec leur matériel et la génération de la fiche d'installation, sans repasser par les étapes de préparation ou d'expédition.",
+    "Le clignotement de Suivi vente est supprimé : une liste vide est désormais un état chargé valide et aucun observateur ne relance la page en boucle.",
+    "L'assistant Vendre du matériel n'affiche plus qu'un seul bouton Retour, conserve toutes les saisies et charge l'étape Site de manière contrôlée après la sélection du client.",
+    "Suivi RMA utilise une seule disposition de boutons d'action, compacte et professionnelle ; les anciens moteurs de rendu et observateurs ne sont plus chargés.",
+    "Le changement de préparateur d'un RMA affiche tous les identifiants actifs disponibles, avec recherche et actualisation à chaque ouverture.",
+    "La création d'un RMA permet de créer immédiatement un nouveau client, de le sélectionner automatiquement puis de poursuivre le dossier.",
+    "Les notes de version sont maintenant alimentées par la version réellement installée et par le changelog correspondant ; les anciennes fenêtres codées en dur ne peuvent plus reprendre la main.",
+    "L'Agent NAS n'est pas modifié et reste en version 22.1.1."
   ]
 }
