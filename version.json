@@ -1,24 +1,20 @@
 {
-  "latest_version": "22.0.3",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
+  "latest_version": "22.0.4",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
   "installer_urls": [
-    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
-    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe"
+    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
+    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe"
   ],
-  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
+  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95221648,
-  "sha256": "19a3955f5aa3ca96a6f92128194d9d52fa36c6e02ce7348aadd6d99be5671fd3",
+  "installer_size": 95699958,
+  "sha256": "d4271d8d0c77ee6e1be24a11b1c9d4f423c4187dddc8aa406ac7d75126cee339",
   "mandatory": false,
-  "published_at": "2026-08-20T20:49:11.622592+00:00",
+  "published_at": "2026-08-20T22:46:16.796206+00:00",
   "changelog": [
-    "Le suivi des prêts affiche uniquement la référence PRET-MMAAAA-NN dans la colonne Référence et uniquement le nom du client dans la colonne Client, sans code client ni nom de société ajouté à la référence.",
-    "Le bouton Créer un prêt reste sur une seule ligne, y compris lorsque la largeur disponible diminue.",
-    "Le bon de prêt utilise le logo officiel CLYO Systems fourni, en conservant ses proportions et sa transparence dans le PDF.",
-    "La vérification des mises à jour utilise GitHub en source principale puis Gitea automatiquement en secours, pour le canal Stable comme pour le canal Test.",
-    "Le téléchargement de l'installateur essaie GitHub en premier puis Gitea si GitHub échoue, tout en conservant les contrôles obligatoires de taille et de SHA-256.",
-    "Le workflow de publication publie désormais version.json et version_test.json sur GitHub puis les réplique sur Gitea afin que le secours dispose du même manifeste.",
-    "La fenêtre Changements de cette version reste pilotée par la couche active v2201 et par les RELEASE_NOTES de la version réellement compilée, ce qui empêche une ancienne fenêtre 22.0.0 de reprendre la main.",
-    "Le workflow de release synchronise automatiquement la version 22.0.x et son changelog sur la couche v2201 lors d'un build ou d'une publication."
+    "La couche historique 22.0.0 ne peut plus reprendre la main sur la fenêtre Changements de cette version après une navigation entre les panneaux : le changelog reste celui de la version réellement installée.",
+    "Tous les anciens déclencheurs de notes de version sont désormais redirigés vers le gestionnaire actif 22.0.4, y compris les boutons recréés dynamiquement après le chargement de l'interface.",
+    "Le bon de prêt utilise en priorité l'asset officiel CLYO Systems et ne peut plus sélectionner le logo horizontal CLYO Stock Atelier tant que le logo CLYO Systems est présent.",
+    "Les bons de prêt existants créés avec un ancien modèle sont régénérés automatiquement lors de leur première ouverture avec le modèle 22.0.4, puis remis en file d'archivage NAS."
   ]
 }
