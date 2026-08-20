@@ -1,24 +1,20 @@
 {
-  "latest_version": "22.4.12",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.12/CLYO_Stock_Atelier_Setup_22.4.12.exe",
+  "latest_version": "22.0.0",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.0/CLYO_Stock_Atelier_Setup_22.0.0.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95418645,
-  "sha256": "865b43bde4a1c1780a964a3551be025940fd5a5dec00b680f07be39586869881",
+  "installer_size": 95001232,
+  "sha256": "d8c52dd51fa97e97d9ff3e0d6f841c2a49b6cde300adfd4d6ffc4f09666f16c5",
   "mandatory": false,
-  "published_at": "2026-08-19T16:08:31.194926+00:00",
+  "published_at": "2026-08-20T08:52:32.423486+00:00",
   "changelog": [
-    "Le tableau de bord reconnaît les scans de matériels et de références RMA, même sans focus dans la recherche, et affiche uniquement les cartes Stock, Vente, RMA, Prêts et Clients.",
-    "Les matériels connus mais absents du stock peuvent être réintégrés avec autorisation et traçabilité ; les codes inconnus affichent une information explicite.",
-    "Le module Prêts aligne Créer et Actualiser, génère automatiquement un bon de prêt au format RMA, passe le dossier en attente de retour et programme la copie NAS sans bloquer l’interface.",
-    "Suivi vente corrige le blocage Client vers Site, charge les préparateurs actifs, reprend la présentation de Suivi RMA et utilise une modale pour les actions complémentaires.",
-    "Les fiches d’installation sont programmées vers GESTION CLIENT/FICHE D’INSTALLATION quel que soit leur point de génération.",
-    "Suivi RMA ouvre plus rapidement la modification, propose une modale unique pour le traitement, les documents et la traçabilité, et programme les bons de retour vers GESTION CLIENT/BON DE RETOUR.",
-    "Les fenêtres Sites et confirmations s’empilent correctement au-dessus des informations client ; création et suppression ne signalent plus un faux délai dépassé ou une annulation interne après succès.",
-    "Toutes les dates visibles utilisent le format JJ-MM-AAAA, sans heure.",
-    "Le Référentiel aligne ses boutons demandés et retire le libellé Excel obsolète.",
-    "Les anciennes couches d’apparence et options obsolètes sont retirées de l’interface active ; navigation, modales et actions utilisent chacune un contrôleur unique.",
-    "Les anciens moteurs RMA/Remplacement 22.2.0 à 22.4.0 qui reconstruisaient encore les tableaux et boutons sont retirés de la page active ; seul le parcours RMA canonique reste chargé.",
-    "Les listes stables sont mises en cache, les copies NAS sont traitées en arrière-plan et les routes lentes sont journalisées afin de retrouver une utilisation fluide sur le réseau local.",
-    "La version de l’Agent NAS reste 22.1.1."
+    "Passage majeur de CLYO Stock Windows et de l’Agent NAS en version 22.0.0.",
+    "La page Vente utilise un seul visuel officiel en accordéon par catégorie, avec recherche et compteur de matériels vendus.",
+    "Le détail d’une catégorie de Vente affiche SN / CODE, MODÈLE, FOURNISSEUR, DATE DE VENTE, CLIENT et STATUT ; un clic sur un matériel ouvre son action.",
+    "Les pages Modèles et Règles de reconnaissance utilisent désormais le même langage visuel et la même structure de colonne Actions.",
+    "Tous les boutons situés dans une colonne ACTION ou ACTIONS sont normalisés au format compact à icône seule ; leur libellé reste disponible en infobulle et pour l’accessibilité.",
+    "La page Modèles reçoit une action Supprimer modèle avec confirmation et actualisation immédiate du référentiel.",
+    "La page Règles de reconnaissance reçoit les actions Voir, Modifier et Supprimer dans le même format compact.",
+    "Le préremplissage du nom lors de la création d’une règle SN depuis un modèle est conservé.",
+    "La synchronisation DOSSIER CLIENT 2026 conserve DATE DE VENTE + CODE SITE et l’Agent NAS passe en 22.0.0."
   ]
 }
