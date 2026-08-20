@@ -2,10 +2,10 @@
   "latest_version": "22.0.2",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.2/CLYO_Stock_Atelier_Setup_22.0.2.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95080786,
-  "sha256": "e9218db419fbfca1714fc992d43b912848b667897648d7cef2ec3b64315eec75",
+  "installer_size": 95086752,
+  "sha256": "bd5349d7fe2efac1545c900331c2b9d6272629b004f175ce3b8812bd427ed3fa",
   "mandatory": false,
-  "published_at": "2026-08-20T15:43:50.026156+00:00",
+  "published_at": "2026-08-20T16:00:40.400631+00:00",
   "changelog": [
     "Finalisation du module Prêt sur la base 22.0.x avec les correctifs d'affichage, d'édition et de génération documentaire validés.",
     "Correction de « Voir le prêt » : le BLOB PDF n'est plus inclus dans la réponse JSON, supprimant l'erreur de sérialisation UTF-8.",
