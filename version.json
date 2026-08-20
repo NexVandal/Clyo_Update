@@ -1,26 +1,24 @@
 {
-  "latest_version": "22.4.6",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
+  "latest_version": "22.0.3",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
   "installer_urls": [
-    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
-    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe"
+    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
+    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe"
   ],
-  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
+  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.3/CLYO_Stock_Atelier_Setup_22.0.3.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95444786,
-  "sha256": "e94e6dce61bcbf453473e07bddc75974e8513e52e1e637eddae47178b58c7210",
+  "installer_size": 95221648,
+  "sha256": "19a3955f5aa3ca96a6f92128194d9d52fa36c6e02ce7348aadd6d99be5671fd3",
   "mandatory": false,
-  "published_at": "2026-08-20T16:36:55.453577+00:00",
+  "published_at": "2026-08-20T20:49:11.622592+00:00",
   "changelog": [
-    "Le module Prêt complet est réintégré sur la base 22.4.5 : création, modification complète, retour scanné, clôture, suppression contrôlée et gestion des préparateurs.",
-    "Le suivi des prêts affiche uniquement le code PRET-MMAAAA-NN dans la colonne Référence et uniquement le nom de la société dans la colonne Client ; le numéro de série n'est plus affiché sous le matériel.",
-    "Le bouton Créer un prêt reste sur une seule ligne et les actions sont regroupées autour de Voir le prêt, Voir le bon, Enregistrer le retour, Supprimer et Plus d'actions.",
-    "Le détail Voir le prêt ne sérialise plus le BLOB PDF, ce qui supprime l'erreur JSON invalid utf-8 ; le bon de prêt s'ouvre directement dans l'aperçu PDF intégré de CLYO Stock.",
-    "Le prêt accepte un commentaire facultatif et l'écran Modifier le prêt permet de changer le matériel, le client, le site, le motif, le commentaire, le préparateur et la date de retour.",
-    "Les références et noms de PDF suivent le format PRET-MMAAAA-NN - NOM SOCIETE ; le bon de prêt utilise le logo officiel CLYO Systems et n'affiche ni Préparateur ni État.",
-    "Le bon de prêt affiche les conditions de restitution à la date prévue et précise que les détériorations, casses, pertes ou matériels rendus inutilisables peuvent être facturés au client.",
-    "Les PDF de prêt sont copiés vers \\\\nas\\CLIENTS\\GESTION CLIENT\\BON DE PRET puis \\\\192.168.0.114\\CLIENTS\\GESTION CLIENT\\BON DE PRET ; l'Agent NAS 22.1.2 prend le relais si le poste n'accède pas au partage.",
-    "La vérification des mises à jour utilise désormais GitHub en priorité puis Gitea automatiquement en secours, aussi bien pour le manifeste que pour le téléchargement de l'installateur.",
-    "Le workflow de publication diffuse aussi les manifestes sur Gitea et le build local synchronise automatiquement version et changelog avant validation afin d'éviter l'affichage d'un ancien changelog 22.0.0."
+    "Le suivi des prêts affiche uniquement la référence PRET-MMAAAA-NN dans la colonne Référence et uniquement le nom du client dans la colonne Client, sans code client ni nom de société ajouté à la référence.",
+    "Le bouton Créer un prêt reste sur une seule ligne, y compris lorsque la largeur disponible diminue.",
+    "Le bon de prêt utilise le logo officiel CLYO Systems fourni, en conservant ses proportions et sa transparence dans le PDF.",
+    "La vérification des mises à jour utilise GitHub en source principale puis Gitea automatiquement en secours, pour le canal Stable comme pour le canal Test.",
+    "Le téléchargement de l'installateur essaie GitHub en premier puis Gitea si GitHub échoue, tout en conservant les contrôles obligatoires de taille et de SHA-256.",
+    "Le workflow de publication publie désormais version.json et version_test.json sur GitHub puis les réplique sur Gitea afin que le secours dispose du même manifeste.",
+    "La fenêtre Changements de cette version reste pilotée par la couche active v2201 et par les RELEASE_NOTES de la version réellement compilée, ce qui empêche une ancienne fenêtre 22.0.0 de reprendre la main.",
+    "Le workflow de release synchronise automatiquement la version 22.0.x et son changelog sur la couche v2201 lors d'un build ou d'une publication."
   ]
 }
