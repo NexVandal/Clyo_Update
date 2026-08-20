@@ -1,23 +1,26 @@
 {
-  "latest_version": "22.0.2",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.2/CLYO_Stock_Atelier_Setup_22.0.2.exe",
+  "latest_version": "22.4.6",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
+  "installer_urls": [
+    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
+    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe"
+  ],
+  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.4.6/CLYO_Stock_Atelier_Setup_22.4.6.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95086752,
-  "sha256": "bd5349d7fe2efac1545c900331c2b9d6272629b004f175ce3b8812bd427ed3fa",
+  "installer_size": 95444786,
+  "sha256": "e94e6dce61bcbf453473e07bddc75974e8513e52e1e637eddae47178b58c7210",
   "mandatory": false,
-  "published_at": "2026-08-20T16:00:40.400631+00:00",
+  "published_at": "2026-08-20T16:36:55.453577+00:00",
   "changelog": [
-    "Finalisation du module Prêt sur la base 22.0.x avec les correctifs d'affichage, d'édition et de génération documentaire validés.",
-    "Correction de « Voir le prêt » : le BLOB PDF n'est plus inclus dans la réponse JSON, supprimant l'erreur de sérialisation UTF-8.",
-    "Le bon de prêt s'affiche directement dans CLYO Stock au lieu d'ouvrir une page Web séparée.",
-    "La liste des préparateurs affiche tous les utilisateurs par nom uniquement, sans leur rôle.",
-    "La colonne Actions est simplifiée avec Voir le prêt, Voir le bon de prêt, Enregistrer le retour, Supprimer et Plus d'actions.",
-    "Ajout d'un commentaire facultatif au prêt, repris dans l'affichage et sur le PDF lorsqu'il est renseigné.",
-    "La modification d'un prêt actif permet de changer le matériel, le client, le site, le motif, le commentaire, le préparateur et la date de retour.",
-    "Les boutons Créer un prêt et Actualiser sont alignés horizontalement et le numéro de série n'est plus affiché sous le matériel dans le tableau.",
-    "Les références et fichiers PDF utilisent le format PRET-MMYYYY-NN - NOM SOCIETE.",
-    "Le bon de prêt masque Préparateur et État et affiche les nouvelles conditions de restitution et de facturation en cas de détérioration, casse, perte ou matériel inutilisable.",
-    "Le PDF est archivé directement vers \\\\nas\\CLIENTS\\GESTION CLIENT\\BON DE PRET puis \\\\192.168.0.114\\CLIENTS\\GESTION CLIENT\\BON DE PRET lorsqu'un accès local est disponible.",
-    "Si le poste ne peut pas écrire sur le NAS, l'Agent NAS 22.1.2 reprend la demande, contrôle le PDF et l'archive de manière atomique."
+    "Le module Prêt complet est réintégré sur la base 22.4.5 : création, modification complète, retour scanné, clôture, suppression contrôlée et gestion des préparateurs.",
+    "Le suivi des prêts affiche uniquement le code PRET-MMAAAA-NN dans la colonne Référence et uniquement le nom de la société dans la colonne Client ; le numéro de série n'est plus affiché sous le matériel.",
+    "Le bouton Créer un prêt reste sur une seule ligne et les actions sont regroupées autour de Voir le prêt, Voir le bon, Enregistrer le retour, Supprimer et Plus d'actions.",
+    "Le détail Voir le prêt ne sérialise plus le BLOB PDF, ce qui supprime l'erreur JSON invalid utf-8 ; le bon de prêt s'ouvre directement dans l'aperçu PDF intégré de CLYO Stock.",
+    "Le prêt accepte un commentaire facultatif et l'écran Modifier le prêt permet de changer le matériel, le client, le site, le motif, le commentaire, le préparateur et la date de retour.",
+    "Les références et noms de PDF suivent le format PRET-MMAAAA-NN - NOM SOCIETE ; le bon de prêt utilise le logo officiel CLYO Systems et n'affiche ni Préparateur ni État.",
+    "Le bon de prêt affiche les conditions de restitution à la date prévue et précise que les détériorations, casses, pertes ou matériels rendus inutilisables peuvent être facturés au client.",
+    "Les PDF de prêt sont copiés vers \\\\nas\\CLIENTS\\GESTION CLIENT\\BON DE PRET puis \\\\192.168.0.114\\CLIENTS\\GESTION CLIENT\\BON DE PRET ; l'Agent NAS 22.1.2 prend le relais si le poste n'accède pas au partage.",
+    "La vérification des mises à jour utilise désormais GitHub en priorité puis Gitea automatiquement en secours, aussi bien pour le manifeste que pour le téléchargement de l'installateur.",
+    "Le workflow de publication diffuse aussi les manifestes sur Gitea et le build local synchronise automatiquement version et changelog avant validation afin d'éviter l'affichage d'un ancien changelog 22.0.0."
   ]
 }
