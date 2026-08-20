@@ -1,20 +1,23 @@
 {
-  "latest_version": "22.0.0",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.0/CLYO_Stock_Atelier_Setup_22.0.0.exe",
+  "latest_version": "22.0.2",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.2/CLYO_Stock_Atelier_Setup_22.0.2.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95001232,
-  "sha256": "d8c52dd51fa97e97d9ff3e0d6f841c2a49b6cde300adfd4d6ffc4f09666f16c5",
+  "installer_size": 95080786,
+  "sha256": "e9218db419fbfca1714fc992d43b912848b667897648d7cef2ec3b64315eec75",
   "mandatory": false,
-  "published_at": "2026-08-20T08:52:32.423486+00:00",
+  "published_at": "2026-08-20T15:43:50.026156+00:00",
   "changelog": [
-    "Passage majeur de CLYO Stock Windows et de l’Agent NAS en version 22.0.0.",
-    "La page Vente utilise un seul visuel officiel en accordéon par catégorie, avec recherche et compteur de matériels vendus.",
-    "Le détail d’une catégorie de Vente affiche SN / CODE, MODÈLE, FOURNISSEUR, DATE DE VENTE, CLIENT et STATUT ; un clic sur un matériel ouvre son action.",
-    "Les pages Modèles et Règles de reconnaissance utilisent désormais le même langage visuel et la même structure de colonne Actions.",
-    "Tous les boutons situés dans une colonne ACTION ou ACTIONS sont normalisés au format compact à icône seule ; leur libellé reste disponible en infobulle et pour l’accessibilité.",
-    "La page Modèles reçoit une action Supprimer modèle avec confirmation et actualisation immédiate du référentiel.",
-    "La page Règles de reconnaissance reçoit les actions Voir, Modifier et Supprimer dans le même format compact.",
-    "Le préremplissage du nom lors de la création d’une règle SN depuis un modèle est conservé.",
-    "La synchronisation DOSSIER CLIENT 2026 conserve DATE DE VENTE + CODE SITE et l’Agent NAS passe en 22.0.0."
+    "Finalisation du module Prêt sur la base 22.0.x avec les correctifs d'affichage, d'édition et de génération documentaire validés.",
+    "Correction de « Voir le prêt » : le BLOB PDF n'est plus inclus dans la réponse JSON, supprimant l'erreur de sérialisation UTF-8.",
+    "Le bon de prêt s'affiche directement dans CLYO Stock au lieu d'ouvrir une page Web séparée.",
+    "La liste des préparateurs affiche tous les utilisateurs par nom uniquement, sans leur rôle.",
+    "La colonne Actions est simplifiée avec Voir le prêt, Voir le bon de prêt, Enregistrer le retour, Supprimer et Plus d'actions.",
+    "Ajout d'un commentaire facultatif au prêt, repris dans l'affichage et sur le PDF lorsqu'il est renseigné.",
+    "La modification d'un prêt actif permet de changer le matériel, le client, le site, le motif, le commentaire, le préparateur et la date de retour.",
+    "Les boutons Créer un prêt et Actualiser sont alignés horizontalement et le numéro de série n'est plus affiché sous le matériel dans le tableau.",
+    "Les références et fichiers PDF utilisent le format PRET-MMYYYY-NN - NOM SOCIETE.",
+    "Le bon de prêt masque Préparateur et État et affiche les nouvelles conditions de restitution et de facturation en cas de détérioration, casse, perte ou matériel inutilisable.",
+    "Le PDF est archivé directement vers \\\\nas\\CLIENTS\\GESTION CLIENT\\BON DE PRET puis \\\\192.168.0.114\\CLIENTS\\GESTION CLIENT\\BON DE PRET lorsqu'un accès local est disponible.",
+    "Si le poste ne peut pas écrire sur le NAS, l'Agent NAS 22.1.2 reprend la demande, contrôle le PDF et l'archive de manière atomique."
   ]
 }
