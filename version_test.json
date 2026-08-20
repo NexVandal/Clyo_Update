@@ -7,10 +7,10 @@
   ],
   "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95699958,
-  "sha256": "d4271d8d0c77ee6e1be24a11b1c9d4f423c4187dddc8aa406ac7d75126cee339",
+  "installer_size": 95699894,
+  "sha256": "d94f04d3a282657f9e95c3b6fd49d598f9f7ecaf4f334aab2880d3c8831dfbac",
   "mandatory": false,
-  "published_at": "2026-08-20T22:46:16.796206+00:00",
+  "published_at": "2026-08-20T23:03:07.973642+00:00",
   "changelog": [
     "La couche historique 22.0.0 ne peut plus reprendre la main sur la fenêtre Changements de cette version après une navigation entre les panneaux : le changelog reste celui de la version réellement installée.",
     "Tous les anciens déclencheurs de notes de version sont désormais redirigés vers le gestionnaire actif 22.0.4, y compris les boutons recréés dynamiquement après le chargement de l'interface.",
