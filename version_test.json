@@ -1,20 +1,32 @@
 {
-  "latest_version": "22.0.4",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
-  "installer_urls": [
-    "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
-    "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe"
-  ],
-  "gitea_installer_url": "https://clyosystemsbackup.synology.me/gitea/clyo/Clyo_Update/releases/download/v22.0.4/CLYO_Stock_Atelier_Setup_22.0.4.exe",
+  "latest_version": "22.0.9",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.9/CLYO_Stock_Atelier_Setup_22.0.9.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95699894,
-  "sha256": "d94f04d3a282657f9e95c3b6fd49d598f9f7ecaf4f334aab2880d3c8831dfbac",
+  "installer_size": 95847881,
+  "sha256": "4c82e6b17c8ca2b01b3d513a108875676538d300c431b621b535d034820750de",
   "mandatory": false,
-  "published_at": "2026-08-20T23:03:07.973642+00:00",
+  "published_at": "2026-08-22T12:19:16.860074+00:00",
   "changelog": [
-    "La couche historique 22.0.0 ne peut plus reprendre la main sur la fenêtre Changements de cette version après une navigation entre les panneaux : le changelog reste celui de la version réellement installée.",
-    "Tous les anciens déclencheurs de notes de version sont désormais redirigés vers le gestionnaire actif 22.0.4, y compris les boutons recréés dynamiquement après le chargement de l'interface.",
-    "Le bon de prêt utilise en priorité l'asset officiel CLYO Systems et ne peut plus sélectionner le logo horizontal CLYO Stock Atelier tant que le logo CLYO Systems est présent.",
-    "Les bons de prêt existants créés avec un ancien modèle sont régénérés automatiquement lors de leur première ouverture avec le modèle 22.0.4, puis remis en file d'archivage NAS."
+    "Nouveau module RMA complet : création, bon de retour, réception, diagnostic, fournisseur, remplacement, expédition et clôture.",
+    "Assistant RMA stabilisé : sélection Client → Site → Matériel → Motif dans une fenêtre persistante, avec snapshot local et protections contre les blocages WebView.",
+    "RMA : actions Modifier le RMA, Changer le préparateur, Régénérer les documents et Supprimer ; liste triée du plus récent au plus ancien.",
+    "Prêts : ajout de la recherche par QR/référence, filtre par état et sélection client avec recherche, sur la même ergonomie que le module RMA.",
+    "Scan global : depuis n’importe quel module, un QR/code PRET, RMA, client, site ou matériel ouvre automatiquement le module et le dossier correspondant.",
+    "Clients : raccourcis Créer un prêt et Créer un RMA avec client présélectionné ; colonne Sites réduite pour conserver toutes les actions visibles.",
+    "Interface : icônes d’actions différenciées et couleurs cohérentes selon la fonction (voir, modifier, document, prêt, RMA, retour, suppression, etc.).",
+    "Navigation : alignement des libellés Tableau de bord, Stock, Vente, Prêts et RMA avec une largeur d’icône identique.",
+    "Fenêtre de notes de version simplifiée et compacte ; la note affichée correspond désormais réellement à CLYO Stock Atelier 22.0.9.",
+    "Identifiants : les actions Modifier, Configurer les accès, Réinitialiser le mot de passe et Supprimer utilisent désormais des icônes et couleurs distinctes.",
+    "Identifiants : la colonne Créé le affiche uniquement la date au format JJ-MM-AAAA, sans modifier la valeur complète enregistrée en base.",
+    "Autorisations : les accès sont regroupés par module (Général, Stock, Clients / Sites, Vente, Prêts, RMA et Administration) tout en conservant les mêmes clés de permissions.",
+    "Agent NAS inchangé en version 22.1.3.",
+    "Droits par rôle : configuration centralisée des accès et héritage automatique par les comptes.",
+    "Les comptes peuvent rester hérités du rôle ou utiliser exceptionnellement des accès personnalisés.",
+    "Création Client/Site accélérée : synchronisations secondaires différées après l'enregistrement MariaDB.",
+    "Prêt : nouveau client et nouveau site automatiquement sélectionnés après création.",
+    "RMA : conservation de la sélection automatique Client/Site avec le moteur de création accéléré.",
+    "Vente : nouveau client/site créé avant la suite du processus et sélectionné automatiquement.",
+    "Multi-postes : attribution des codes Client/Site renforcée. Le prochain numéro est recalculé depuis la base réelle, l'historique et le compteur.",
+    "Multi-postes : si un autre poste prend exactement le même code pendant la création, CLYO réattribue automatiquement le numéro suivant sans demander de relancer manuellement."
   ]
 }
