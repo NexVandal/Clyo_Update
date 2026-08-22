@@ -2,10 +2,10 @@
   "latest_version": "22.0.9",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v22.0.9/CLYO_Stock_Atelier_Setup_22.0.9.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95847881,
-  "sha256": "4c82e6b17c8ca2b01b3d513a108875676538d300c431b621b535d034820750de",
+  "installer_size": 95846069,
+  "sha256": "0431d683a024f0be8dedad7a032500a821a17fefefd8fdc06a1b0d18bfa9d8e2",
   "mandatory": false,
-  "published_at": "2026-08-22T12:19:16.860074+00:00",
+  "published_at": "2026-08-22T15:11:59.267390+00:00",
   "changelog": [
     "Nouveau module RMA complet : création, bon de retour, réception, diagnostic, fournisseur, remplacement, expédition et clôture.",
     "Assistant RMA stabilisé : sélection Client → Site → Matériel → Motif dans une fenêtre persistante, avec snapshot local et protections contre les blocages WebView.",
