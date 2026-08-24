@@ -2,10 +2,10 @@
   "latest_version": "23.0.0",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v23.0.0/CLYO_Stock_Atelier_Setup_23.0.0.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95943625,
-  "sha256": "e9d41f9023ec20af3215177bce0a10b5cc1ab93444b1ef18d4eef1a5dd74cd47",
+  "installer_size": 95961554,
+  "sha256": "138dc634e252a8877bdf730cc054a192b06b26cc61ed6e8802fa44761ae3f5c3",
   "mandatory": false,
-  "published_at": "2026-08-24T10:39:44.915491+00:00",
+  "published_at": "2026-08-24T14:06:18.207479+00:00",
   "changelog": [
     "Nouvelle version majeure 23.0.0 : configuration centralisée des autorisations par rôle avec héritage automatique pour les comptes.",
     "Un compte utilise par défaut les droits de son rôle ; un mode d'accès personnalisés reste disponible uniquement pour les exceptions.",
