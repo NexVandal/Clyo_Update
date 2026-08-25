@@ -1,24 +1,14 @@
 {
-  "latest_version": "23.0.0",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v23.0.0/CLYO_Stock_Atelier_Setup_23.0.0.exe",
+  "latest_version": "23.0.2",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v23.0.2/CLYO_Stock_Atelier_Setup_23.0.2.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95962329,
-  "sha256": "7007c054797f0cdf893982808a9bc07039d26e19bef5b010e6162fcda6678ce9",
+  "installer_size": 95971787,
+  "sha256": "3cbccfb61e6c4eb5b6a6dee330ddb36807df8a13f7c94111bdb80c060badf2ca",
   "mandatory": false,
-  "published_at": "2026-08-24T14:22:58.757782+00:00",
+  "published_at": "2026-08-25T06:32:35.870754+00:00",
   "changelog": [
-    "Nouvelle version majeure 23.0.0 : configuration centralisée des autorisations par rôle avec héritage automatique pour les comptes.",
-    "Un compte utilise par défaut les droits de son rôle ; un mode d'accès personnalisés reste disponible uniquement pour les exceptions.",
-    "Création Client et Site accélérée : la réponse est renvoyée dès que l'écriture MariaDB principale est validée, sans attendre les synchronisations secondaires.",
-    "Dans Prêt, un nouveau client ou site est ajouté au cache local, sélectionné automatiquement puis le formulaire reprend sans recharger toute la liste.",
-    "Dans RMA, les nouveaux clients et sites utilisent le même moteur rapide et sont sélectionnés automatiquement dans le parcours de création.",
-    "Dans Vente, un client ou un site créé pendant l'encaissement est immédiatement sélectionné afin de reprendre la vente sans nouvelle recherche.",
-    "L'attribution des codes Client et Site résiste aux créations simultanées de plusieurs postes grâce à une réattribution automatique en cas de collision.",
-    "Ajout d'un dossier de diagnostic par module avec des journaux séparés pour application, stock, vente, clients, sites, prêt, RMA, identifiants, mises à jour, base de données, frontend et erreurs fatales.",
-    "Les journaux enregistrent les actions, durées, erreurs Python/JavaScript, exceptions de threads et traces de crash, avec rotation automatique des fichiers.",
-    "L'Agent NAS reste en version 22.1.3 et n'est pas modifié par cette mise à jour Windows.",
-    "Stabilité WebView2 : anciens observers DOM Dessins/Interface bornés aux modules concernés, garde anti-réécriture et recherche Client sans reconstruction de la liste.",
-    "Prêt : chargement Client/Site aligné sur le RMA (1 lecture Clients + 1 lecture Sites dans une seule session DB, snapshot local, aucun N+1 ni migration au clic).",
-    "Prêt : frontend Client/Site remplacé par une modale persistante et un picker local calqués sur le RMA ; les anciens wrappers enhanceSelect/previousOpenLoan ne sont plus dans le chemin exécuté."
+    "Stabilisation des droits et permissions par rôle pour RMA, Prêt, Vente et Suivi commande.",
+    "Tri chronologique corrigé du plus récent au plus ancien.",
+    "Journaux de diagnostic conservés ; Agent NAS : 22.1.3."
   ]
 }
