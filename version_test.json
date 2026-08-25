@@ -2,10 +2,10 @@
   "latest_version": "24.0.0",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.0/CLYO_Stock_Atelier_Setup_24.0.0.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95973851,
-  "sha256": "d638367ee9d5d8f776b9b8cbdae1162cf13a2a5e437847e2e91e970e5facb562",
+  "installer_size": 95973645,
+  "sha256": "a50c0436e48613601dc0b06dca496353166087dffab68ee3e7cd2e78957eea61",
   "mandatory": false,
-  "published_at": "2026-08-25T10:22:03.525134+00:00",
+  "published_at": "2026-08-25T10:37:07.985669+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
     "Tri chronologique et archivage des fiches par site consolidés.",
