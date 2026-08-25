@@ -1,24 +1,32 @@
 {
-  "latest_version": "24.0.4",
-  "version": "24.0.4",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.4/CLYO_Stock_Atelier_Setup_24.0.4.exe",
+  "latest_version": "24.0.5",
+  "version": "24.0.5",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.5/CLYO_Stock_Atelier_Setup_24.0.5.exe",
   "asset_type": "installer_exe",
-  "installer_size": 96009258,
-  "sha256": "c20a16cd4094903c2a67e62cac2f595de2d781aab1d62d4d5876d11b53acbf8e",
+  "installer_size": 96006022,
+  "sha256": "a4d1e337cec9baa47db803531aae69176ced9a80f7683427e603d80381357953",
   "mandatory": false,
-  "published_at": "2026-08-25T20:40:35.018389+00:00",
+  "published_at": "2026-08-25T21:56:08.319679+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Module Apparence conservé et rendu visible dans l’interface principale.",
-    "RMA multi-matériel, documents de retour et suivi colis consolidés.",
-    "Tutoriel et déploiement du portail NAS alignés sur la version 24.0.4.",
-    "Journaux de diagnostic et notes de mise à jour alignés sur 24.0.4."
+    "Journaux de diagnostic conservés pour la release 24.0.5.",
+    "Defocus global stabilisé : la saisie ne revient plus dans un ancien champ pendant les rendus et rafraîchissements.",
+    "Textes longs des bons RMA, remplacement et Prêt renvoyés à la ligne sans chevaucher les QR codes.",
+    "Scroll interne harmonisé avec Clients pour RMA, Prêt et Suivi commande.",
+    "Panneau Apparence canonique conservé et ancien affichage empêché de reprendre la main.",
+    "Boutons Vente alignés horizontalement et curseur conservé pendant la recherche.",
+    "Parcours Mot de passe oublié : la date de naissance est demandée uniquement lors de la récupération.",
+    "Tutoriel et fiche des fichiers du portail NAS alignés sur 24.0.5."
   ],
   "release_notes": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Module Apparence conservé et rendu visible dans l’interface principale.",
-    "RMA multi-matériel, documents de retour et suivi colis consolidés.",
-    "Tutoriel et déploiement du portail NAS alignés sur la version 24.0.4.",
-    "Journaux de diagnostic et notes de mise à jour alignés sur 24.0.4."
+    "Journaux de diagnostic conservés pour la release 24.0.5.",
+    "Defocus global stabilisé : la saisie ne revient plus dans un ancien champ pendant les rendus et rafraîchissements.",
+    "Textes longs des bons RMA, remplacement et Prêt renvoyés à la ligne sans chevaucher les QR codes.",
+    "Scroll interne harmonisé avec Clients pour RMA, Prêt et Suivi commande.",
+    "Panneau Apparence canonique conservé et ancien affichage empêché de reprendre la main.",
+    "Boutons Vente alignés horizontalement et curseur conservé pendant la recherche.",
+    "Parcours Mot de passe oublié : la date de naissance est demandée uniquement lors de la récupération.",
+    "Tutoriel et fiche des fichiers du portail NAS alignés sur 24.0.5."
   ]
 }
