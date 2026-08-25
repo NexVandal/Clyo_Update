@@ -1,14 +1,16 @@
 {
-  "latest_version": "24.0.0",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.0/CLYO_Stock_Atelier_Setup_24.0.0.exe",
+  "latest_version": "24.0.1",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.1/CLYO_Stock_Atelier_Setup_24.0.1.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95972421,
-  "sha256": "68a233284749a7c8a856ef13bf3ca7e09bef853f0ce3e6728ae88ccd1db3a458",
+  "installer_size": 95975131,
+  "sha256": "ca62cf0ae9dff73969f0a012bb5aba1d80a1f61e50955972c8cc74d9829e6d6e",
   "mandatory": false,
-  "published_at": "2026-08-25T11:12:05.413002+00:00",
+  "published_at": "2026-08-25T11:48:04.239871+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Tri chronologique et archivage des fiches par site consolidés.",
-    "Suivi colis et journaux de diagnostic conservés ; Agent NAS : 22.1.3."
+    "Fiches d’installation archivées par code et nom du site depuis Clients et Suivi commande.",
+    "Connexion MariaDB simplifiée avec profils LOCAL et EXTÉRIEUR, sans afficher les paramètres sensibles.",
+    "Tutoriel portail enrichi avec le fonctionnement des modules et les validations de la release.",
+    "Journaux de diagnostic conservés pour la release 24.0.1."
   ]
 }
