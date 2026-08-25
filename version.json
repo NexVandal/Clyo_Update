@@ -1,22 +1,24 @@
 {
-  "latest_version": "24.0.3",
-  "version": "24.0.3",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.3/CLYO_Stock_Atelier_Setup_24.0.3.exe",
+  "latest_version": "24.0.4",
+  "version": "24.0.4",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.4/CLYO_Stock_Atelier_Setup_24.0.4.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95992221,
-  "sha256": "2f68a9c6e2cbda450f28b220b87c9f5dbb9b07b2c93ae2e32ecea8c15bdbece8",
+  "installer_size": 96009258,
+  "sha256": "c20a16cd4094903c2a67e62cac2f595de2d781aab1d62d4d5876d11b53acbf8e",
   "mandatory": false,
-  "published_at": "2026-08-25T18:17:24.705787+00:00",
+  "published_at": "2026-08-25T20:40:35.018389+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Connexion MariaDB, Agent NAS et Google Sheets alignés sur 24.0.3.",
-    "Archivage documentaire par site et suivi colis conservés.",
-    "Journaux de diagnostic conservés pour la release 24.0.3."
+    "Module Apparence conservé et rendu visible dans l’interface principale.",
+    "RMA multi-matériel, documents de retour et suivi colis consolidés.",
+    "Tutoriel et déploiement du portail NAS alignés sur la version 24.0.4.",
+    "Journaux de diagnostic et notes de mise à jour alignés sur 24.0.4."
   ],
   "release_notes": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Connexion MariaDB, Agent NAS et Google Sheets alignés sur 24.0.3.",
-    "Archivage documentaire par site et suivi colis conservés.",
-    "Journaux de diagnostic conservés pour la release 24.0.3."
+    "Module Apparence conservé et rendu visible dans l’interface principale.",
+    "RMA multi-matériel, documents de retour et suivi colis consolidés.",
+    "Tutoriel et déploiement du portail NAS alignés sur la version 24.0.4.",
+    "Journaux de diagnostic et notes de mise à jour alignés sur 24.0.4."
   ]
 }
