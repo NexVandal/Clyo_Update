@@ -1,24 +1,24 @@
 {
-  "latest_version": "24.0.1",
-  "version": "24.0.1",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.1/CLYO_Stock_Atelier_Setup_24.0.1.exe",
+  "latest_version": "24.0.2",
+  "version": "24.0.2",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.2/CLYO_Stock_Atelier_Setup_24.0.2.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95976458,
-  "sha256": "f212e87c5c4c4165e2743c0084fd1bfec3785bc77ea14ff559cb5283b67943ff",
+  "installer_size": 95978651,
+  "sha256": "d33a8710e564e954363c10d1496c69ba5f048491ca8fd34f3a24fed804a8b289",
   "mandatory": false,
-  "published_at": "2026-08-25T12:57:36.321452+00:00",
+  "published_at": "2026-08-25T13:43:31.604614+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Fiches d’installation archivées par code et nom du site depuis Clients et Suivi commande.",
-    "Connexion MariaDB simplifiée avec profils LOCAL et EXTÉRIEUR, sans afficher les paramètres sensibles.",
-    "Tutoriel portail enrichi avec le fonctionnement des modules et les validations de la release.",
-    "Journaux de diagnostic conservés pour la release 24.0.1."
+    "Connexion MariaDB simplifiée et test réseau stabilisé.",
+    "Mot de passe non prérempli ni affiché dans la configuration.",
+    "Tutoriel portail et archivage documentaire mis à jour.",
+    "Journaux de diagnostic conservés pour la release 24.0.2."
   ],
   "release_notes": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Fiches d’installation archivées par code et nom du site depuis Clients et Suivi commande.",
-    "Connexion MariaDB simplifiée avec profils LOCAL et EXTÉRIEUR, sans afficher les paramètres sensibles.",
-    "Tutoriel portail enrichi avec le fonctionnement des modules et les validations de la release.",
-    "Journaux de diagnostic conservés pour la release 24.0.1."
+    "Connexion MariaDB simplifiée et test réseau stabilisé.",
+    "Mot de passe non prérempli ni affiché dans la configuration.",
+    "Tutoriel portail et archivage documentaire mis à jour.",
+    "Journaux de diagnostic conservés pour la release 24.0.2."
   ]
 }
