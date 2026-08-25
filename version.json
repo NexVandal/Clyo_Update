@@ -3,10 +3,10 @@
   "version": "24.0.3",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.3/CLYO_Stock_Atelier_Setup_24.0.3.exe",
   "asset_type": "installer_exe",
-  "installer_size": 95991003,
-  "sha256": "33229d259a28d7d82c9016e54f4e8c8ea2c54d5207a7ced1107a50a64f989baf",
+  "installer_size": 95995101,
+  "sha256": "4fc9f231e09851e91fc8850e5ad81a2ffce64a3a86610a4108358538de560ee9",
   "mandatory": false,
-  "published_at": "2026-08-25T15:58:56.353836+00:00",
+  "published_at": "2026-08-25T17:04:41.089022+00:00",
   "changelog": [
     "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
     "Connexion MariaDB, Agent NAS et Google Sheets alignés sur 24.0.3.",
