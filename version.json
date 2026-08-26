@@ -1,32 +1,28 @@
 {
-  "latest_version": "24.0.5",
-  "version": "24.0.5",
-  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.5/CLYO_Stock_Atelier_Setup_24.0.5.exe",
+  "latest_version": "24.0.6",
+  "version": "24.0.6",
+  "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.6/CLYO_Stock_Atelier_Setup_24.0.6.exe",
   "asset_type": "installer_exe",
-  "installer_size": 96006022,
-  "sha256": "a4d1e337cec9baa47db803531aae69176ced9a80f7683427e603d80381357953",
+  "installer_size": 96034032,
+  "sha256": "79671a88cfcf7997ed15560f46ff7465e53f6e192656d45958b129d9b1e4a908",
   "mandatory": false,
-  "published_at": "2026-08-25T21:56:08.319679+00:00",
+  "published_at": "2026-08-26T07:46:15.027829+00:00",
   "changelog": [
-    "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Journaux de diagnostic conservés pour la release 24.0.5.",
-    "Defocus global stabilisé : la saisie ne revient plus dans un ancien champ pendant les rendus et rafraîchissements.",
-    "Textes longs des bons RMA, remplacement et Prêt renvoyés à la ligne sans chevaucher les QR codes.",
-    "Scroll interne harmonisé avec Clients pour RMA, Prêt et Suivi commande.",
-    "Panneau Apparence canonique conservé et ancien affichage empêché de reprendre la main.",
-    "Boutons Vente alignés horizontalement et curseur conservé pendant la recherche.",
-    "Parcours Mot de passe oublié : la date de naissance est demandée uniquement lors de la récupération.",
-    "Tutoriel et fiche des fichiers du portail NAS alignés sur 24.0.5."
+    "Bons RMA, remplacement et Prêt : retours à la ligne complets, pagination automatique et zones QR strictement réservées.",
+    "RMA, Prêt et Suivi commande : défilement interne harmonisé avec la liste Clients.",
+    "Apparence : seul l'écran canonique est conservé et un garde empêche le retour de l'ancien panneau.",
+    "Vente : les actions + Vendre du matériel et ⟳ Actualiser restent alignées horizontalement.",
+    "Mot de passe oublié : la date de naissance est vérifiée pendant la récupération puis n'est plus redemandée.",
+    "Saisie : le focus et le curseur restent sur le champ réellement utilisé, y compris pendant les rafraîchissements de l'interface.",
+    "Portail NAS, notes, manifestes et fiche des fichiers alignés sur la version 24.0.6."
   ],
   "release_notes": [
-    "Droits et permissions par rôle stabilisés pour RMA, Prêt, Vente et Suivi commande.",
-    "Journaux de diagnostic conservés pour la release 24.0.5.",
-    "Defocus global stabilisé : la saisie ne revient plus dans un ancien champ pendant les rendus et rafraîchissements.",
-    "Textes longs des bons RMA, remplacement et Prêt renvoyés à la ligne sans chevaucher les QR codes.",
-    "Scroll interne harmonisé avec Clients pour RMA, Prêt et Suivi commande.",
-    "Panneau Apparence canonique conservé et ancien affichage empêché de reprendre la main.",
-    "Boutons Vente alignés horizontalement et curseur conservé pendant la recherche.",
-    "Parcours Mot de passe oublié : la date de naissance est demandée uniquement lors de la récupération.",
-    "Tutoriel et fiche des fichiers du portail NAS alignés sur 24.0.5."
+    "Bons RMA, remplacement et Prêt : retours à la ligne complets, pagination automatique et zones QR strictement réservées.",
+    "RMA, Prêt et Suivi commande : défilement interne harmonisé avec la liste Clients.",
+    "Apparence : seul l'écran canonique est conservé et un garde empêche le retour de l'ancien panneau.",
+    "Vente : les actions + Vendre du matériel et ⟳ Actualiser restent alignées horizontalement.",
+    "Mot de passe oublié : la date de naissance est vérifiée pendant la récupération puis n'est plus redemandée.",
+    "Saisie : le focus et le curseur restent sur le champ réellement utilisé, y compris pendant les rafraîchissements de l'interface.",
+    "Portail NAS, notes, manifestes et fiche des fichiers alignés sur la version 24.0.6."
   ]
 }
