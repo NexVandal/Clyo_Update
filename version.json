@@ -3,10 +3,10 @@
   "version": "24.0.6",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.0.6/CLYO_Stock_Atelier_Setup_24.0.6.exe",
   "asset_type": "installer_exe",
-  "installer_size": 96034032,
-  "sha256": "79671a88cfcf7997ed15560f46ff7465e53f6e192656d45958b129d9b1e4a908",
+  "installer_size": 96034279,
+  "sha256": "0472f93c5b335eeca05c9ace6d455b91a4e89f51a623cae08e681877e761743e",
   "mandatory": false,
-  "published_at": "2026-08-26T07:46:15.027829+00:00",
+  "published_at": "2026-08-26T09:31:21.624356+00:00",
   "changelog": [
     "Bons RMA, remplacement et Prêt : retours à la ligne complets, pagination automatique et zones QR strictement réservées.",
     "RMA, Prêt et Suivi commande : défilement interne harmonisé avec la liste Clients.",
