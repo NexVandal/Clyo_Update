@@ -3,10 +3,10 @@
   "version": "24.1.3",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v24.1.3/CLYO_Stock_Atelier_Setup_24.1.3.exe",
   "asset_type": "installer_exe",
-  "installer_size": 97708670,
-  "sha256": "03a17a70a3c7e388441a555f50ecc9afec178d6a286b82249fd5c2ea90e63ee2",
+  "installer_size": 97714775,
+  "sha256": "016aaadab0a19c7714543e95b6227d574673791385dc726e2d9235e63b572553",
   "mandatory": false,
-  "published_at": "2026-09-07T11:43:19.670323+00:00",
+  "published_at": "2026-09-07T12:24:42.944535+00:00",
   "changelog": [
     "===========================",
     "Passage de CLYO Stock Atelier et de l’Agent NAS en version 24.1.3.",
