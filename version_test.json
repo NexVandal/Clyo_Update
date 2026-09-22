@@ -3,10 +3,10 @@
   "version": "25.0.4",
   "installer_url": "https://github.com/NexVandal/Clyo_Update/releases/download/v25.0.4/CLYO_Stock_Atelier_Setup_25.0.4.exe",
   "asset_type": "installer_exe",
-  "installer_size": 112690274,
-  "sha256": "94986da295eda336379e0ce14cb93e5f365b037d90214c1191cf0f491a42a05a",
+  "installer_size": 112691997,
+  "sha256": "bc845c0622ffddf65ee79af98fe4411046714aaffbbc423d2bea20fb98b77e3c",
   "mandatory": false,
-  "published_at": "2026-09-22T05:38:15.246690+00:00",
+  "published_at": "2026-09-22T10:13:24.737483+00:00",
   "changelog": [
     "1. Correction : documents générés avant la mise à jour",
     "Depuis le passage dans C:\\CLYO Stock Atelier (25.0.1), la reprise des données laissait dans l'ancien dossier ProgramData les fiches d'installation générées, les QR codes, les images de matériels et de raccordement, les modèles de documents et les archives : un bon déjà généré affichait « Document généré introuvable ». Au premier démarrage de la 25.0.4, tout ce qui manque est recopié dans le dossier de l'application (rien n'est écrasé, les fichiers créés depuis la mise à jour sont conservés) ; un document encore absent est de toute façon retrouvé dans l'ancien dossier et recopié à l'ouverture.",
